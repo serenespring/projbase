@@ -1,9 +1,3 @@
-/**
- * 封装Button
- * @author: serenespring
- * @since: 2022-01-09
- */
-
 import 'antd/dist/antd.css';
 import React, { useState } from 'react';
 import { Form, Row, Col, Select, Input, Card, DatePicker } from 'antd';
@@ -105,7 +99,7 @@ const NormalSearch = (props: any) => {
             >
               {columns.length > 6 ? (
                 <>
-                  {expand ? <UpOutlined /> : <DownOutlined />}{' '}
+                  {expand ? <UpOutlined /> : <DownOutlined />}
                   {expand ? '收起' : '展开'}
                 </>
               ) : (

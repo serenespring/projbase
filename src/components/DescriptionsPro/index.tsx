@@ -1,9 +1,3 @@
-/**
- * 封装Button
- * @author: serenespring
- * @since: 2022-01-09
- */
-
 import React from 'react';
 import { Descriptions } from 'antd';
 import 'antd/dist/antd.css';

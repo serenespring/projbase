@@ -1,8 +1,3 @@
-/**
- * 封装Button
- * @author: serenespring
- * @since: 2022-01-09
- */
 import React from 'react';
 import 'antd/dist/antd.css';
 import { createFromIconfontCN } from '@ant-design/icons';
